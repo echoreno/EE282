@@ -1,7 +1,7 @@
-#Project analysis proposal
+# Project analysis proposal
 ==========================
 
-#Introduction
+# Introduction
 
 The Global Ocean Ship-based Hydrographic Investigations Program (GO-Ship) is an international  
 effort aiming to link microbial biodiversity with ecosystem functioning in marine  
@@ -15,7 +15,7 @@ cruise AMT-28 2018 belonging to GO-Ship, in a first approach to explore basic ec
 questions regarding the taxonomic and functional diversity of marine fungi in the afore  
 mentioned dataset.  
 
-#Dataset
+# Dataset
 
 The dataset belonging to the AMT-28 2018 consist of 64 metagenomes obtained from a transect that 
 crosses the Atlantic Ocean from South America to Europe. These metagenomes have been already  
@@ -31,7 +31,7 @@ which they are assigned.
 3. GMGC10emapper2.annotations.tsv.gz: it contains the unigenes from different environments and  
 their functional annotation.
 
-#Analysis  
+# Analysis  
 
 The proposed analysis broadly consists on two steps:
 
@@ -54,7 +54,7 @@ language Python, this work will provide a first approach to explore the taxonomi
 diversity of marine fungi from the samples collected by the cruise AMT-18 in the Atlantic Ocean.  
 
 
-#References
+# References
 
 1. Larkin, A.A., Garcia, C.A., Garcia, N. et al. (2021). High spatial resolution global ocean  
 metagenomes from Bio-GO-SHIP repeat hydrography transects. Sci Data, 8: 107.  

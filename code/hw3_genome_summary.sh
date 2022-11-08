@@ -19,6 +19,5 @@ shasum  -c all_chrom.txt
 
 faSize dmel-all-chromosome-r6.48.fasta.gz > dmel-all-chromosome-r6.48.fasta.gz.txt
 less dmel-all-chromosome-r6.48.fasta.gz.txt
-
-
+|
 

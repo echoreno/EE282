@@ -30,9 +30,9 @@ myrepos/ee282
 less dmel-all-chromosome-r6.48.fasta.gz.txt`
 
 Answer:
-1.Total number of nucleotides: 143726002 
-2.Total number of Ns: 1152978
-3.Total number of sequences: 1870
+1. Total number of nucleotides: 143726002 
+2. Total number of Ns: 1152978
+3. Total number of sequences: 1870
 
 
 # SECOND PART: ANNOTATION SUMMARY

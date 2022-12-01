@@ -49,6 +49,4 @@ to obtain the plot #3.
 ![gtcn](/myrepos/ee282/gtgcplot.png)
 
 3. Cumulative sorted
-![gtsorted](/myrepos/ee282/gt.lgsrt.png)
-
-
+![gtsorted](gt.lgsrt.png)

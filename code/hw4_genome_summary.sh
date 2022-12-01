@@ -34,7 +34,7 @@ bioawk -c fastx ' { print length($seq) "\t" gc($seq) "\t" $name } ' lt.fa.gz \
 > lt.lgcn.txt 
 sort -k1,1rn lt.lgcn.txt > lt.lgcnsrt.txt
 
-## 1 and 2 in  RStudio script
+## 1 and 2 in RStudio script
 
 ## 3.Cumulative sorted
 
@@ -47,12 +47,17 @@ bioawk -c fastx ' { print length($seq) "\t" gc($seq) "\t" $name } ' gt.fa.gz \
 > gt.lgcn.txt 
 sort -k1,1rn gt.lgcn.txt > gt.lgcnsrt.txt
 
-## 1 and 2 in  RStudio script
+## 1 and 2 in RStudio script
 
 ## 3.Cumulative sorted
 
 plotCDF <(cut -f 1 gt.lgcnsrt.txt) gt.lgsrt.png
 display lt.lgsrt.png
+
+
+
+
+
 
 
 

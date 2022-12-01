@@ -32,21 +32,21 @@ to obtain the plot #3.
 ## ≤ 100kb (lt)
 
 1. Sequence length distribution.
-![ltlength](/myrepos/ee282/ltlgthplot.png)
+![ltlength](ltlgthplot.png)
 
 2. Sequence GC% distribution.
-![ltcn](/myrepos/ee282/ltgcplot.png)
+![ltcn](ltgcplot.png)
 
 3. Cumulative sorted
-![ltsorted](/myrepos/ee282/lt.lgsrt.png)
+![ltsorted](lt.lgsrt.png)
 
 ## > 100kb (gt)
 
 1. Sequence length distribution.
-![gtlength](/myrepos/ee282/gtlgthplot.png)
+![gtlength](gtlgthplot.png)
 
 2. Sequence GC% distribution.
-![gtcn](/myrepos/ee282/gtgcplot.png)
+![gtcn](gtgcplot.png)
 
 3. Cumulative sorted
 ![gtsorted](gt.lgsrt.png)

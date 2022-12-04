@@ -10,17 +10,17 @@ cd ~/myrepos/ee282
 
 conda install -y miniasm minimap
 
-1. Dowloading the reads
+# 1. Dowloading the reads
 
 cp /pub/jje/ee282/iso1_onp_a2_1kb.fastq /data/homezvol2/echoreno/myrepos/ee282/
 ln -sf iso1_onp_a2_1kb.fastq reads.fq
 
-2. Overlaping reads with minimap 
+# 2. Overlaping reads with minimap 
 
 minimap -t 32 -Sw5 -L100 -m0 reads.fq{,} \
 | gzip -1 > onp.paf.gz
 
-3. Constructing an assembly
+# 3. Constructing an assembly
 
 miniasm -f reads.fq onp.paf.gz > reads.gfa
 
@@ -30,7 +30,7 @@ srun -A class-ee282 --pty --x11 bash -i
 conda activate ee282
 cd ~/myrepos/ee282
 
-1. Calculating the N50 for the assembly (reads.gfa).
+# 1. Calculating the N50 for the assembly (reads.gfa).
 
 awk ' $0 ~/^S/ { print ">" $2" \n" $3 } ' reads.gfa \
 > assembly.gfa
@@ -45,7 +45,7 @@ bioawk -c fastx ' { print length($seq)} ' assembly.gfa \
 
 fold -w 60 assembly.gfa > unitigs.fa
 
-2. Comparing assembly to both the contig assembly and the scaffold assembly from the Drosophila melanogaster 
+# 2. Comparing assembly to both the contig assembly and the scaffold assembly from the Drosophila melanogaster 
 
 ## Using plot CDF 
 
@@ -86,7 +86,7 @@ bioawk -c fastx ' { print length($seq) } ' dmel-all-chromosome-r6.48.fasta.gz \
 
 plotCDF2 *.sizes CDF2.png
 
-3. Calculating BUSCO scores
+# 3. Calculating BUSCO scores
 
 conda install busco
 
